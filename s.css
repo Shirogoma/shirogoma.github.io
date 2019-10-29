@@ -1,0 +1,90 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-image: url("5056611_221936475000_2.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  margin-bottom: 50px; }
+
+/*.haikei {
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+  background-size: cover;
+}*/
+.header-left {
+  float: left;
+  margin-left: 10px;
+  display: block;
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  cursor: pointer; }
+
+.main {
+  margin: 0 40px; }
+
+.maehuri-wrapper {
+  height: 700px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin-bottom: 50px; }
+
+.heading h2 {
+  padding-top: 100px;
+  font-size: 30px; }
+
+.maehuri-comment {
+  font-size: 24px;
+  font-weight: normal; }
+
+.projects {
+  text-align: center;
+  margin: 80px auto;
+  padding-bottom: 50px;
+  height: 300px; }
+  .projects h2 {
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: solid 2px gray; }
+  .projects span {
+    padding-left: 15px;
+    font-size: 30px;
+    color: gray;
+    cursor: pointer; }
+
+.project {
+  margin: auto;
+  float: left;
+  width: 50%; }
+  .project p {
+    font-size: 25px;
+    font-weight: bold; }
+
+footer {
+  background-color: black;
+  height: 80px;
+  background-size: cover; }
+
+.return-btn {
+  color: white;
+  font-size: 12px;
+  float: left;
+  margin-left: 10px;
+  padding-top: 10px;
+  cursor: pointer; }
+
+.footer-right {
+  float: right;
+  color: white; }
+  .footer-right li {
+    font-size: 14px;
+    margin: 5px; }
+    .footer-right li a {
+      color: white;
+      style: none; }
+
+.active {
+  display: block; }
